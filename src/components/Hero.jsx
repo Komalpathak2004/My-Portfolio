@@ -26,18 +26,20 @@ const Hero = () => {
       </div>
 
       {/* ComputersCanvas */}
-      <ComputersCanvas />
+      <div className="relative w-full h-screen max-w-[1600px] mx-auto">
+        <ComputersCanvas />
+      </div>
 
       {/* Mobile text section */}
       <div className='absolute inset-0 flex flex-col items-center justify-center sm:hidden top-[-45%] px-3'>
-  <h1 className='text-white text-center text-[2rem]'>
-    Hi, I'm <span className='text-[#915EFF] font-extrabold'>Komal Pathak</span>
-  </h1>
-  <p className='mt-2 text-white-100 text-center text-[0.8rem]'>
-    I am a developer, passionate<br />
-    about cutting-edge technology.
-  </p>
-</div>
+        <h1 className='text-white text-center text-[2rem]'>
+          Hi, I'm <span className='text-[#915EFF] font-extrabold'>Komal Pathak</span>
+        </h1>
+        <p className='mt-2 text-white-100 text-center text-[0.8rem]'>
+          I am a developer, passionate<br />
+          about cutting-edge technology.
+        </p>
+      </div>
 
       {/* Scroll indicator */}
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

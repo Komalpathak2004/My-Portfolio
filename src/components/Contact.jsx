@@ -75,13 +75,12 @@ const Contact = () => {
   };
 
   return (
-    
-          <div className="flex flex-col gap-5 overflow-hidden mb-2">
+    <div className="flex flex-col gap-5 overflow-hidden mb-2">
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="flex-1 p-8 rounded-2xl flex flex-col justify-center relative -mt-24" // Adjust margin-top here
+        className="flex-1 p-8 rounded-2xl flex flex-col justify-center relative"
       >
-        <div className="relative w-full h-[600px] max-w-[1600px] mx-auto">
+        <div className="relative w-full h-[300px] md:h-[500px] lg:h-[600px] max-w-[1600px] mx-auto">
           <EarthCanvas />
         </div>
       </motion.div>
